@@ -4,7 +4,7 @@ public class Main
 {
     public static void main(String... args)
     {
-        Reverse service = new Reverse();
+        Service service = new Service();
         String s = "Hello KBerg!";
 
         String t = service.reverseString(s);

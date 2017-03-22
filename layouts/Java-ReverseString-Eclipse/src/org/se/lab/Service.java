@@ -1,6 +1,6 @@
 package org.se.lab;
 
-public class Reverse
+public class Service
 {
     public String reverseString(String input)
     {
