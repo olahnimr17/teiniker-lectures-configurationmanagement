@@ -20,7 +20,7 @@ origin	https://github.com/teiniker/teiniker-lectures-configurationmanagement/ (f
 origin	https://github.com/teiniker/teiniker-lectures-configurationmanagement/ (push)
 ```
 
-A: changes a file
+A: Changes a file
 -----------------
 [Commit Changes]
 
