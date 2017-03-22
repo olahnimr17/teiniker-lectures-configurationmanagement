@@ -5,9 +5,12 @@ Example: Create Git Repository and Commit a Simple Java Project
 Create a simple Java project
 ----------------------------
 
+```
 $ mkdir -p src/org/se/lab
 $ mkdir build
+```
 
+```
 $ vi src/org/se/lab/Hello.java
 package org.se.lab;
 
@@ -20,11 +23,11 @@ public class Hello
         System.out.println("Hello World!");
     }
 }
-
+```
+```
 $ javac -d build src/org/se/lab/Hello.java
 
-
-	$ tree
+$ tree
 	.
 	├── build
 	│   └── org
@@ -39,11 +42,12 @@ $ javac -d build src/org/se/lab/Hello.java
 
 $ java -cp build/ org.se.lab.Hello 
 Hello World!
-
+```
 
 Create a Git repository
 -----------------------
 
+```
 $ git init
 Initialized empty Git repository in /home/student/git/hello/.git/
 
@@ -64,10 +68,12 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
 	build/
 	src/
-
+```
 	
 Commit the project files to the repository
 ------------------------------------------
+
+```
 $ git add src/
 
 $ git status
@@ -84,12 +90,14 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
 	build/
+```
 
-
+```
 $ vi .gitignore
 build/
+```
 
-
+```
 $ git status
 On branch master
 
@@ -105,9 +113,9 @@ Untracked files:
 
 	.gitignore
 
-
 $ git add .gitignore 
-[student@localhost hello]$ git status
+
+$ git status
 On branch master
 
 Initial commit
@@ -117,7 +125,9 @@ Changes to be committed:
 
 	new file:   .gitignore
 	new file:   src/org/se/lab/Hello.java
+```
 
+```
 $ git commit -m "Initial import."
 [master (root-commit) 1e10e10] Initial import.
  2 files changed, 13 insertions(+)
@@ -127,4 +137,4 @@ $ git commit -m "Initial import."
  $ git status
 On branch master
 nothing to commit, working directory clean
-
+```
