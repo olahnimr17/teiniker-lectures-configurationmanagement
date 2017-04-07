@@ -1,4 +1,4 @@
-Example: Branching and Merging in a local Repository
+Example: Branching and Merging in a Local Repository
 ===================================================
 
 
