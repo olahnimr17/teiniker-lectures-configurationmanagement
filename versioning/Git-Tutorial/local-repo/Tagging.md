@@ -103,10 +103,6 @@ b4eddc4586397cf114e9d96f644adff857a54d04 Changed output text.
 ```
 
 ```
-$ git tag -a version-0.0.1 a8035b3bd333e69ac6560d0cdedfab6ed52a2153
-```
-
-```
 $ git tag -a version-0.0.1 a8035b3bd333e69ac6560d0cdedfab6ed52a2153 -m "Pretty early version."
 $ git tag
 version-0.0.1
