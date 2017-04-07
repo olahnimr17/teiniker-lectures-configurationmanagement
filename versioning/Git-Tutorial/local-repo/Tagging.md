@@ -32,7 +32,7 @@ $ git tag
 version-1.0.0
 ```
 
-Mage some modifications, commit them and tag the new commit.
+Make some modifications, commit them and tag the new commit.
 
 ``` 
 $ vi src/org/se/lab/Hello.java 
