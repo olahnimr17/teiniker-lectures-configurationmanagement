@@ -2,7 +2,7 @@ Example: Two developers no conficts
 ====================================
 
 This is a test !!!!
-This is a second one ;-)
+This is a second one :-D
 
 
 A: Uses a browser
