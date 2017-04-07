@@ -89,17 +89,6 @@ $ cat src/org/se/lab/Hello.java
 You will see the new version of this file again.
 ```
 
-Go back to the master branch to continue work...
-
-```
-$ git checkout master
-Switched to branch 'master'
-
-$ git status
-On branch master
-nothing to commit, working directory clean
-```
-
 Tag an older commit
 -------------------
 We can also tag commits after we have moved past them.
@@ -152,3 +141,15 @@ index 5bc09f2..001e06e 100644
  }
 ```
  
+Go back to the master branch
+-----------------------------
+
+```
+$ git checkout master
+Switched to branch 'master'
+
+$ git status
+On branch master
+nothing to commit, working directory clean
+```
+
