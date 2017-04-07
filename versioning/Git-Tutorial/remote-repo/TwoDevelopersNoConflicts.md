@@ -1,7 +1,8 @@
 Example: Two developers no conficts
 ====================================
 
-THis is a test !!!!
+This is a test !!!!
+This is a second one ;-)
 
 
 A: Uses a browser
