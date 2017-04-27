@@ -1,0 +1,42 @@
+<project name="Ant-CommonsLang" default="jar">	
+	<property name="src" location="src" />
+	<property name="lib" location="lib" />
+	<property name="build" location="build-ant" />
+
+	<path id="libs">
+		<pathelement path="${lib}/commons-lang/commons-lang3-3.5.jar" />
+		<pathelement path="${build}" />
+	</path>
+	
+	<target name="init">
+		<mkdir dir="${build}" />
+	</target>  
+
+	<target name="clean">
+ 		<delete dir="${build}" /> 
+		<delete file="${ant.project.name}.jar" />
+	</target>
+	
+  	<target name="compile" depends="init">
+      	<javac includeantruntime="false" 
+      		srcdir="${src}" 
+      		classpathref="libs" 
+      		destdir="${build}"/>
+  	</target>
+
+  	<target name="jar" depends="compile">
+      	<jar jarfile="${ant.project.name}.jar" basedir="${build}" >
+         	<manifest>
+            	<attribute name="Main-Class" value="org.se.lab.ArrayExample" />
+         	</manifest>
+      	</jar>
+  	</target>	
+	
+	<target name="run">
+        <java classname="org.se.lab.ArrayExample"
+              fork="yes"
+              classpathref="libs"
+              failonerror="true">
+        </java>
+    </target>
+</project>

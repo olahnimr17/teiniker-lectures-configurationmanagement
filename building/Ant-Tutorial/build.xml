@@ -1,0 +1,25 @@
+<project name="Ant-Tutorial" default="jar">	
+	<property name="src" location="src" />
+  	<property name="build" location="build-ant" />
+			
+	<target name="init">
+		<mkdir dir="${build}" />
+	</target>  
+
+	<target name="clean">
+ 		<delete dir="${build}" /> 
+		<delete file="${ant.project.name}.jar" />
+	</target>
+	
+  	<target name="compile" depends="init">
+      	<javac includeantruntime="false" srcdir="${src}" destdir="${build}"/>
+  	</target>
+
+  	<target name="jar" depends="compile">
+      	<jar jarfile="${ant.project.name}.jar" basedir="${build}" >
+         	<manifest>
+            	<attribute name="Main-Class" value="org.se.lab.Hello" />
+         	</manifest>
+      	</jar>
+  	</target>	
+</project>
