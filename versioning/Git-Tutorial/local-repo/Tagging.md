@@ -32,7 +32,7 @@ $ git tag
 version-1.0.0
 ```
 
-Mage some modifications, commit them and tag the new commit.
+Make some modifications, commit them and tag the new commit.
 
 ``` 
 $ vi src/org/se/lab/Hello.java 
@@ -89,17 +89,6 @@ $ cat src/org/se/lab/Hello.java
 You will see the new version of this file again.
 ```
 
-Go back to the master branch to continue work...
-
-```
-$ git checkout master
-Switched to branch 'master'
-
-$ git status
-On branch master
-nothing to commit, working directory clean
-```
-
 Tag an older commit
 -------------------
 We can also tag commits after we have moved past them.
@@ -111,10 +100,6 @@ a8035b3bd333e69ac6560d0cdedfab6ed52a2153 Removed output.
 c5fce964ca9f70c9ec17fc06ba62282c43854d61 Add output text.
 b4eddc4586397cf114e9d96f644adff857a54d04 Changed output text.
 750335327a7a203678529dda474c68601e297604 Initial commit.
-```
-
-```
-$ git tag -a version-0.0.1 a8035b3bd333e69ac6560d0cdedfab6ed52a2153
 ```
 
 ```
@@ -152,3 +137,15 @@ index 5bc09f2..001e06e 100644
  }
 ```
  
+Go back to the master branch
+-----------------------------
+
+```
+$ git checkout master
+Switched to branch 'master'
+
+$ git status
+On branch master
+nothing to commit, working directory clean
+```
+
