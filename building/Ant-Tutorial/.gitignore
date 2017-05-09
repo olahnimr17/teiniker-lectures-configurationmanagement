@@ -2,3 +2,7 @@
 /build/
 /.classpath
 /.project
+/.idea/
+/build-ant/
+/Ant-Tutorial.iml
+/Ant-Tutorial.jar
