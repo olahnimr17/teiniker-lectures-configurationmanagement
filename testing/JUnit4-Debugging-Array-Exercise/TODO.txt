@@ -1,0 +1,13 @@
+Exercise: Debgging with JUnit Tests
+-------------------------------------------------------------------------------
+
+Die vorliegende Implementierung enthält angeblich einen Bug, d.h. die Methode
+"IntegerArrayUtility.reverse()" tut nicht was sie tun soll...
+
+1) JUnit Tests
+	Implementieren Sie zwei JUnit Testfälle welche zeigen, ob bzw. wie
+	der behauptete Bug auftritt.
+	Verwenden Sie folgende Testdaten: {1,2,3,4,5,6,7,8} und {1,2,3,4,5,6,7}
+	
+2) Debugging
+	Beheben Sie den Bug, damit die implementierten Testfälle durchlaufen. 	
