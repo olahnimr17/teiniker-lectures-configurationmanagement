@@ -1,12 +1,13 @@
 package org.se.lab;
 
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 public class IntegerArrayUtilityTest
 {
-	public IntegerArrayUtility util;
+	private IntegerArrayUtility util;
 	
 	@Before
 	public void setup()
