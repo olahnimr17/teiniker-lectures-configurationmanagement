@@ -4,31 +4,15 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.se.lab</groupId>
 	<artifactId>JUnit4-Debugging-Array-Exercise</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 
-	<build>
-		<plugins>
-			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.1</version>
-				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+	<parent>
+		<groupId>org.se.lab</groupId>
+		<artifactId>testing-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
 
-	<dependencies>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
 </project>
 
 
