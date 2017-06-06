@@ -1,0 +1,105 @@
+arc42 Template Sections
+
+* Introduction and Goals
+
+	Short description of the requirements, driving forces, extract (or abstract) of 
+	requirements. Top three (max five) quality goals for the architecture which have 
+	highest priority for the major stakeholders. A table of important stakeholders 
+	with their expectation regarding architecture.
+	
+[images/01-intro-and-goals.png] 
+
+
+* Constraints
+
+	Anything that constrains teams in design and implementation decisions or decision 
+	about related processes. Can sometimes go beyond individual systems and are valid 
+	for whole organizations and companies.
+	
+[images/02-constraints-overview.png]	
+	
+	
+* Context and Scope
+	
+	Delimits your system from its (external) communication partners (neighboring systems 
+	and users). Specifies the external interfaces. Shown from a business/domain perspective 
+	(always) or a technical perspective (optional)
+	
+[images/03-context-overview.png]	
+	
+	
+* Solution Strategy
+	
+	Summary of the fundamental decisions and solution strategies that shape the architecture. 
+	Can include technology, top-level decomposition, approaches to achieve top quality goals 
+	and relevant organizational decisions.
+	
+
+* Building Block View
+
+	Static decomposition of the system, abstractions of source-code, shown as hierarchy of 
+	white boxes (containing black boxes), up to the appropriate level of detail.
+
+[images/05-building-block-overview.png]		
+	
+	
+* Runtime View
+	
+	Behavior of building blocks as scenarios, covering important use cases or features, 
+	interactions at critical external interfaces, operation and administration plus error 
+	and exception behavior.
+	
+[images/06-runtime-overview.png]	
+
+
+* Deployment View
+
+	Technical infrastructure with environments, computers, processors, topologies. 
+	Mapping of (software) building blocks to infrastructure elements.
+
+[images/07-deployment-overview.png]	
+
+
+* Cross-cutting Concepts
+
+	Overall, principal regulations and solution approaches relevant in multiple parts 
+	(cross-cutting) of the system. Concepts are often related to multiple building blocks. 
+	Include different topics like domain models, architecture patterns and -styles, rules 
+	for using specific technology and implementation rules.
+
+[images/08-concepts-overview.png]	
+
+
+* Architectural Decisions
+
+	Important, expensive, critical, large scale or risky architecture decisions including rationales.
+
+[images/09-decision-overview.png]	
+
+
+* Quality Requirements
+
+	Quality requirements as scenarios, with quality tree to provide high-level overview. 
+	The most important quality goals should have been described in section 1.2. (quality goals).
+
+[images/10-q-scenario-overview.png]
+
+
+* Risks and Technical Debt
+
+	Known technical risks or technical debt. What potential problems exist within or around the 
+	system? What does the development team feel miserable about?
+
+[images/11-risk-overview.png]
+
+
+* Glossary
+
+	Important domain and technical terms that stakeholders use when discussing he system. 
+	Also: translation reference if you work in a multi-language environment.
+
+[images/12-glossary-overview.png]
+	
+	
+	
+	
